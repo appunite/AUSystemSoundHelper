@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		241E786818EB3692000F3BBC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 241E786718EB3692000F3BBC /* Foundation.framework */; };
+		241E786A18EB3692000F3BBC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 241E786918EB3692000F3BBC /* CoreGraphics.framework */; };
+		241E786C18EB3692000F3BBC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 241E786B18EB3692000F3BBC /* UIKit.framework */; };
+		241E787218EB3692000F3BBC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 241E787018EB3692000F3BBC /* InfoPlist.strings */; };
+		241E787418EB3692000F3BBC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 241E787318EB3692000F3BBC /* main.m */; };
+		241E787818EB3692000F3BBC /* AUAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 241E787718EB3692000F3BBC /* AUAppDelegate.m */; };
+		241E787B18EB3692000F3BBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 241E787918EB3692000F3BBC /* Main.storyboard */; };
+		241E787E18EB3692000F3BBC /* AUViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 241E787D18EB3692000F3BBC /* AUViewController.m */; };
+		241E788018EB3692000F3BBC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 241E787F18EB3692000F3BBC /* Images.xcassets */; };
+		241E788718EB3692000F3BBC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 241E788618EB3692000F3BBC /* XCTest.framework */; };
+		241E788818EB3692000F3BBC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 241E786718EB3692000F3BBC /* Foundation.framework */; };
+		241E788918EB3692000F3BBC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 241E786B18EB3692000F3BBC /* UIKit.framework */; };
+		241E789118EB3692000F3BBC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 241E788F18EB3692000F3BBC /* InfoPlist.strings */; };
+		241E789318EB3692000F3BBC /* AUSystemSoundsHelperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 241E789218EB3692000F3BBC /* AUSystemSoundsHelperTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		241E788A18EB3692000F3BBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 241E785C18EB3692000F3BBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 241E786318EB3692000F3BBC;
+			remoteInfo = AUSystemSoundsHelper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		241E786418EB3692000F3BBC /* AUSystemSoundsHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AUSystemSoundsHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		241E786718EB3692000F3BBC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		241E786918EB3692000F3BBC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		241E786B18EB3692000F3BBC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		241E786F18EB3692000F3BBC /* AUSystemSoundsHelper-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AUSystemSoundsHelper-Info.plist"; sourceTree = "<group>"; };
+		241E787118EB3692000F3BBC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		241E787318EB3692000F3BBC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		241E787518EB3692000F3BBC /* AUSystemSoundsHelper-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AUSystemSoundsHelper-Prefix.pch"; sourceTree = "<group>"; };
+		241E787618EB3692000F3BBC /* AUAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AUAppDelegate.h; sourceTree = "<group>"; };
+		241E787718EB3692000F3BBC /* AUAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AUAppDelegate.m; sourceTree = "<group>"; };
+		241E787A18EB3692000F3BBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		241E787C18EB3692000F3BBC /* AUViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AUViewController.h; sourceTree = "<group>"; };
+		241E787D18EB3692000F3BBC /* AUViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AUViewController.m; sourceTree = "<group>"; };
+		241E787F18EB3692000F3BBC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		241E788518EB3692000F3BBC /* AUSystemSoundsHelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AUSystemSoundsHelperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		241E788618EB3692000F3BBC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		241E788E18EB3692000F3BBC /* AUSystemSoundsHelperTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AUSystemSoundsHelperTests-Info.plist"; sourceTree = "<group>"; };
+		241E789018EB3692000F3BBC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		241E789218EB3692000F3BBC /* AUSystemSoundsHelperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AUSystemSoundsHelperTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		241E786118EB3692000F3BBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				241E786A18EB3692000F3BBC /* CoreGraphics.framework in Frameworks */,
+				241E786C18EB3692000F3BBC /* UIKit.framework in Frameworks */,
+				241E786818EB3692000F3BBC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		241E788218EB3692000F3BBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				241E788718EB3692000F3BBC /* XCTest.framework in Frameworks */,
+				241E788918EB3692000F3BBC /* UIKit.framework in Frameworks */,
+				241E788818EB3692000F3BBC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		241E785B18EB3692000F3BBC = {
+			isa = PBXGroup;
+			children = (
+				241E786D18EB3692000F3BBC /* AUSystemSoundsHelper */,
+				241E788C18EB3692000F3BBC /* AUSystemSoundsHelperTests */,
+				241E786618EB3692000F3BBC /* Frameworks */,
+				241E786518EB3692000F3BBC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		241E786518EB3692000F3BBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				241E786418EB3692000F3BBC /* AUSystemSoundsHelper.app */,
+				241E788518EB3692000F3BBC /* AUSystemSoundsHelperTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		241E786618EB3692000F3BBC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				241E786718EB3692000F3BBC /* Foundation.framework */,
+				241E786918EB3692000F3BBC /* CoreGraphics.framework */,
+				241E786B18EB3692000F3BBC /* UIKit.framework */,
+				241E788618EB3692000F3BBC /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		241E786D18EB3692000F3BBC /* AUSystemSoundsHelper */ = {
+			isa = PBXGroup;
+			children = (
+				241E787618EB3692000F3BBC /* AUAppDelegate.h */,
+				241E787718EB3692000F3BBC /* AUAppDelegate.m */,
+				241E787918EB3692000F3BBC /* Main.storyboard */,
+				241E787C18EB3692000F3BBC /* AUViewController.h */,
+				241E787D18EB3692000F3BBC /* AUViewController.m */,
+				241E787F18EB3692000F3BBC /* Images.xcassets */,
+				241E786E18EB3692000F3BBC /* Supporting Files */,
+			);
+			path = AUSystemSoundsHelper;
+			sourceTree = "<group>";
+		};
+		241E786E18EB3692000F3BBC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				241E786F18EB3692000F3BBC /* AUSystemSoundsHelper-Info.plist */,
+				241E787018EB3692000F3BBC /* InfoPlist.strings */,
+				241E787318EB3692000F3BBC /* main.m */,
+				241E787518EB3692000F3BBC /* AUSystemSoundsHelper-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		241E788C18EB3692000F3BBC /* AUSystemSoundsHelperTests */ = {
+			isa = PBXGroup;
+			children = (
+				241E789218EB3692000F3BBC /* AUSystemSoundsHelperTests.m */,
+				241E788D18EB3692000F3BBC /* Supporting Files */,
+			);
+			path = AUSystemSoundsHelperTests;
+			sourceTree = "<group>";
+		};
+		241E788D18EB3692000F3BBC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				241E788E18EB3692000F3BBC /* AUSystemSoundsHelperTests-Info.plist */,
+				241E788F18EB3692000F3BBC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		241E786318EB3692000F3BBC /* AUSystemSoundsHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 241E789618EB3692000F3BBC /* Build configuration list for PBXNativeTarget "AUSystemSoundsHelper" */;
+			buildPhases = (
+				241E786018EB3692000F3BBC /* Sources */,
+				241E786118EB3692000F3BBC /* Frameworks */,
+				241E786218EB3692000F3BBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AUSystemSoundsHelper;
+			productName = AUSystemSoundsHelper;
+			productReference = 241E786418EB3692000F3BBC /* AUSystemSoundsHelper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		241E788418EB3692000F3BBC /* AUSystemSoundsHelperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 241E789918EB3692000F3BBC /* Build configuration list for PBXNativeTarget "AUSystemSoundsHelperTests" */;
+			buildPhases = (
+				241E788118EB3692000F3BBC /* Sources */,
+				241E788218EB3692000F3BBC /* Frameworks */,
+				241E788318EB3692000F3BBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				241E788B18EB3692000F3BBC /* PBXTargetDependency */,
+			);
+			name = AUSystemSoundsHelperTests;
+			productName = AUSystemSoundsHelperTests;
+			productReference = 241E788518EB3692000F3BBC /* AUSystemSoundsHelperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		241E785C18EB3692000F3BBC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AU;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Appunite;
+				TargetAttributes = {
+					241E788418EB3692000F3BBC = {
+						TestTargetID = 241E786318EB3692000F3BBC;
+					};
+				};
+			};
+			buildConfigurationList = 241E785F18EB3692000F3BBC /* Build configuration list for PBXProject "AUSystemSoundsHelper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 241E785B18EB3692000F3BBC;
+			productRefGroup = 241E786518EB3692000F3BBC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				241E786318EB3692000F3BBC /* AUSystemSoundsHelper */,
+				241E788418EB3692000F3BBC /* AUSystemSoundsHelperTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		241E786218EB3692000F3BBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				241E788018EB3692000F3BBC /* Images.xcassets in Resources */,
+				241E787218EB3692000F3BBC /* InfoPlist.strings in Resources */,
+				241E787B18EB3692000F3BBC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		241E788318EB3692000F3BBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				241E789118EB3692000F3BBC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		241E786018EB3692000F3BBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				241E787818EB3692000F3BBC /* AUAppDelegate.m in Sources */,
+				241E787E18EB3692000F3BBC /* AUViewController.m in Sources */,
+				241E787418EB3692000F3BBC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		241E788118EB3692000F3BBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				241E789318EB3692000F3BBC /* AUSystemSoundsHelperTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		241E788B18EB3692000F3BBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 241E786318EB3692000F3BBC /* AUSystemSoundsHelper */;
+			targetProxy = 241E788A18EB3692000F3BBC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		241E787018EB3692000F3BBC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				241E787118EB3692000F3BBC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		241E787918EB3692000F3BBC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				241E787A18EB3692000F3BBC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		241E788F18EB3692000F3BBC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				241E789018EB3692000F3BBC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		241E789418EB3692000F3BBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		241E789518EB3692000F3BBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		241E789718EB3692000F3BBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AUSystemSoundsHelper/AUSystemSoundsHelper-Prefix.pch";
+				INFOPLIST_FILE = "AUSystemSoundsHelper/AUSystemSoundsHelper-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		241E789818EB3692000F3BBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AUSystemSoundsHelper/AUSystemSoundsHelper-Prefix.pch";
+				INFOPLIST_FILE = "AUSystemSoundsHelper/AUSystemSoundsHelper-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		241E789A18EB3692000F3BBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AUSystemSoundsHelper.app/AUSystemSoundsHelper";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AUSystemSoundsHelper/AUSystemSoundsHelper-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AUSystemSoundsHelperTests/AUSystemSoundsHelperTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		241E789B18EB3692000F3BBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AUSystemSoundsHelper.app/AUSystemSoundsHelper";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AUSystemSoundsHelper/AUSystemSoundsHelper-Prefix.pch";
+				INFOPLIST_FILE = "AUSystemSoundsHelperTests/AUSystemSoundsHelperTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		241E785F18EB3692000F3BBC /* Build configuration list for PBXProject "AUSystemSoundsHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				241E789418EB3692000F3BBC /* Debug */,
+				241E789518EB3692000F3BBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		241E789618EB3692000F3BBC /* Build configuration list for PBXNativeTarget "AUSystemSoundsHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				241E789718EB3692000F3BBC /* Debug */,
+				241E789818EB3692000F3BBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		241E789918EB3692000F3BBC /* Build configuration list for PBXNativeTarget "AUSystemSoundsHelperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				241E789A18EB3692000F3BBC /* Debug */,
+				241E789B18EB3692000F3BBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 241E785C18EB3692000F3BBC /* Project object */;
+}
